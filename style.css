@@ -11,7 +11,6 @@ body {
 }
 
 .all {
-    border: 1px solid red;
     display: inline-block;
 }
 
@@ -22,12 +21,11 @@ input {
 input[name=plus] {
     display: block;
     width: 100%;
-    height: 50px;
     margin: 10px 0;
 }
 
 p {
-    margin: 10px;
+    margin: 10px 0;
     font-size: 20px;
     text-transform: uppercase;
 }

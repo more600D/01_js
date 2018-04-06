@@ -27,5 +27,5 @@ input[type=button] {
 p {
     margin: 10px 0;
     font-size: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }

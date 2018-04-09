@@ -13,7 +13,7 @@ window.onload = function() {
         let newStr = '';
 
         if(str == '') {
-            return 'Введите слово!';
+            return 'Введите фразу или слово!';
         }
 
         else {

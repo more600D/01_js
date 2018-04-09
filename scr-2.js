@@ -18,10 +18,8 @@ window.onload = function() {
 
         else {
             let lowerStr = str.toLowerCase();
-            for(var i = lowerStr.length-1; i >= 0; i-- ) {
-                newStr += lowerStr[i];
-            }
-            return newStr.charAt(0).toUpperCase() + newStr.substr(1);
+            lowerStr.split('').reverse().join();
+            return lowerStr.charAt(0).toUpperCase() + lowerStr.substr(1);
         }
     }
 }
